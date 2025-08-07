@@ -7,6 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
+    }
+  },
   "telemetry": {
     "metrics": false,
     "diagnostics": false
@@ -16,7 +23,15 @@
   "buffer_font_size": 16,
   "theme": {
     "mode": "system",
-    "light": "Nordic",
+    "light": "Catppuccin Mocha",
     "dark": "One Dark"
+  },
+  "minimap": {
+    "show": "always",
+    "display_in": "active_editor",
+    "thumb": "always",
+    "thumb_size": "left_open",
+    "current_line_highlight": "line",
+    "max_width_columns": 80
   }
 }
